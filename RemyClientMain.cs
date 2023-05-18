@@ -2,6 +2,8 @@
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("start"); 
+        
+        //Cook myCook = new Cook();
+        //Console.WriteLine(myCook.getName());
     }
 }
