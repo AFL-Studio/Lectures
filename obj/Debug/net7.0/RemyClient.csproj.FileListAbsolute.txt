@@ -1,0 +1,15 @@
+/workspaces/Lectures/bin/Debug/net7.0/RemyClient
+/workspaces/Lectures/bin/Debug/net7.0/RemyClient.deps.json
+/workspaces/Lectures/bin/Debug/net7.0/RemyClient.runtimeconfig.json
+/workspaces/Lectures/bin/Debug/net7.0/RemyClient.dll
+/workspaces/Lectures/bin/Debug/net7.0/RemyClient.pdb
+/workspaces/Lectures/obj/Debug/net7.0/RemyClient.csproj.AssemblyReference.cache
+/workspaces/Lectures/obj/Debug/net7.0/RemyClient.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Lectures/obj/Debug/net7.0/RemyClient.AssemblyInfoInputs.cache
+/workspaces/Lectures/obj/Debug/net7.0/RemyClient.AssemblyInfo.cs
+/workspaces/Lectures/obj/Debug/net7.0/RemyClient.csproj.CoreCompileInputs.cache
+/workspaces/Lectures/obj/Debug/net7.0/RemyClient.dll
+/workspaces/Lectures/obj/Debug/net7.0/refint/RemyClient.dll
+/workspaces/Lectures/obj/Debug/net7.0/RemyClient.pdb
+/workspaces/Lectures/obj/Debug/net7.0/RemyClient.genruntimeconfig.cache
+/workspaces/Lectures/obj/Debug/net7.0/ref/RemyClient.dll

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/Lectures/Lectures.csproj",
-      "projectName": "Lectures",
-      "projectPath": "/workspaces/Lectures/Lectures.csproj",
+      "projectUniqueName": "/workspaces/Lectures/RemyClient.csproj",
+      "projectName": "RemyClient",
+      "projectPath": "/workspaces/Lectures/RemyClient.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
       "outputPath": "/workspaces/Lectures/obj/",
       "projectStyle": "PackageReference",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GFWxZoPtfwgVczdWJelOIKJHZLGpv9lJX1eJHu959p+QuwwDHQDRtbtv0NpKgLB5WZJUZWF00sJ2c21ymwze1Q==",
+  "dgSpecHash": "6Q4HfWYy8zHx1DG8B0n5n/on1d8Y5ftTCs3nclG9BQAE+utqWM0zOPTuk9gHzMljPEXrVlbjkz+8A/bkibrh9w==",
   "success": true,
-  "projectFilePath": "/workspaces/Lectures/Lectures.csproj",
+  "projectFilePath": "/workspaces/Lectures/RemyClient.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
