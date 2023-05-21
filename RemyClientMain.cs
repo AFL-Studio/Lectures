@@ -18,6 +18,11 @@
                 Console.WriteLine("점검중에 일반오류 발생!!!");
             }
             break;
+            default:
+            {
+                Console.WriteLine("정의되지 않은 오류가 발생했습니다!!");
+            }
+            break;
         }  
     }
 }
