@@ -8,7 +8,7 @@ public class CheckProcessManager : Cook
     }
 
     // CheckStart() 메소득가 반환할 상태값 정의
-    private enum CheckResult { Succeed = 0, GeneralError = -1 };
+    public enum CheckResult { Succeed = 0, GeneralError = -1 };
 
     int CheckProcedureStatus;
 
@@ -17,14 +17,11 @@ public class CheckProcessManager : Cook
     // 반환받는값: int(점검의 결과를 반환합니다)
     public int CheckStart()
     {
-
         if(1 != 0) // 오류조건
         {
             // 오류가 생겼어
             return (int)CheckResult.GeneralError;
         }
-
-
 
         return (int)CheckResult.Succeed;
     }
