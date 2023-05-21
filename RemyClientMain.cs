@@ -3,7 +3,9 @@
     private static void Main(string[] args)
     {
         
-        //Cook myCook = new Cook();
-        //Console.WriteLine(myCook.getName());
+        Cook myCook = new Cook();
+        Console.WriteLine(myCook.getName());
+        CheckListData myChecklist = new CheckListData () ;
+        
     }
 }
