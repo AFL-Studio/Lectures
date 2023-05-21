@@ -3,10 +3,10 @@
     private static void Main(string[] args)
     {
         
-        Cook myCook = new Cook();
-        Console.WriteLine(myCook.getName());
 
-        CheckListData myChecklist = new CheckListData();
+        // CheckProcessManager 객체를 만들고, CheckStart() 할거에요
+        CheckProcessManager checkInstance = new CheckProcessManager();
+        
 
 
 
