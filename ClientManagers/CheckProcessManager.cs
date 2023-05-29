@@ -7,7 +7,7 @@ public class CheckProcessManager : Cook
     }
 
     // CheckStart() 메소득가 반환할 상태값 정의
-    public enum CheckResult { Succeed = 0, GeneralError = -1,  };
+    public enum CheckResult { Succeed = 0, GeneralError = -1, ChecklistFileNotFound = -2, FileLoadFailure = -3,  };
 
     int CheckProcedureStatus;
     // 이 메소드는 중간중간에 진행상태를 출력 해 줄 것
@@ -21,12 +21,25 @@ public class CheckProcessManager : Cook
     // 반환받는값: int(점검의 결과를 반환합니다)
     public int CheckStart()
     {
-
+        FileManager fileInstance = new FileManager();
         
-        if(1 != 0) // 오류조건
+        if(fileInstance.VulFileOpen())
         {
-            // 오류가 생겼어
-            return 3;
+            // 파일 열기 성공
+            if(fileInstance.VulFileLoad())
+            {
+                // 파일 열기와 적재를 모두 성공함
+            }
+            else
+            {
+                // 파일은 열었는데 적재하는데 실패함
+                return (int)CheckResult.FileLoadFailure;
+            }
+        }
+        else
+        {
+            // 파일 열기 실패
+            return (int)CheckResult.ChecklistFileNotFound;
         }
 
         return (int)CheckResult.Succeed;
