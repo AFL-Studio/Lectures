@@ -21,6 +21,8 @@ public class CheckProcessManager : Cook
     // 반환받는값: int(점검의 결과를 반환합니다)
     public int CheckStart()
     {
+
+        
         if(1 != 0) // 오류조건
         {
             // 오류가 생겼어

@@ -4,7 +4,18 @@
     {
         // CheckProcessManager 객체를 만들고, CheckStart() 할거에요
         CheckProcessManager checkInstance = new CheckProcessManager();
+        FileManager fileInstance = new FileManager();
 
+        if(fileInstance.VulFileopen())
+        {
+            // 성공
+        }
+        else
+        {
+            // 실패
+            // 메시지 띄워주고!!!! 프로그램 종료
+            return;
+        }
         int checkResult = checkInstance.CheckStart();
         switch(checkResult)
         {
