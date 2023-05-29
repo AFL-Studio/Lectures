@@ -11,7 +11,10 @@ public class CheckProcessManager : Cook
 
     int CheckProcedureStatus;
     // 이 메소드는 중간중간에 진행상태를 출력 해 줄 것
-    private ReportCheckProcedure();
+    private int ReportCheckProcedure()
+    {
+        return 0;
+    }
 
     // 이 메소드는 점검을 시작합니다.
     // 입력받는값: void
